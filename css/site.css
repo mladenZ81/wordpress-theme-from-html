@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/*
+Theme Name: website
+Theme URL: http://wordpress.org/
+
+
+Author: Mladen Zivanovic
+Author URL: http://wordpress.org/
+
+
+Description: Tema na kojoj učimo nešto novo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URL: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/ 
+.menu.main {
+	text-align: center;
+	padding-bottom: 0;
+}
+.menu.main li {
+	display: inline;
+	float: none;
+}
+.main.menu li:after { 
+	content: " \002d"; 
+}
+.main.menu li:last-child:after { 
+	content: none; 
+}
+.menu.main li a {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+aside .bocni-meni {
+  display: block;
+  padding: 2px;
+  border: none;
+}
+
+aside .bocni-meni a {
+  display: block;
+  border-bottom: 2px solid black;
+  background-color: green;
+  width: 100%;
+  padding: 2px;
+}
+
+aside .bocni-meni a :hover {
+  color: white;
+  background-color: yellow;
+}
+
+aside .bocnip {
+  width: 100%;
+  padding: 2px;
+}
+
+aside .slikabocna {
+  max-height: 240px;
+  padding: 2px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(red));
+  background-image: linear-gradient(black, red);
+  text-align: center;
+  height: 200px;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body .navigacija-zaglavlje {
+  position: static;
+}
+
+body section {
+  background-image: radial-gradient(lightblue, white);
+  margin-top: 40px;
+}
+
+body section article {
+  display: inline-block;
+  border-right: 1px black solid;
+  width: 20%;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
+}
+
+body section article img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+table {
+  width: 300px;
+  height: 120px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+table td {
+  width: 50%;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+h1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(red));
+  background-image: linear-gradient(black, red);
+  color: white;
+  text-indent: 10px;
+  line-height: 40px;
+  height: 40px;
+  margin-top: 0;
+  top: 40px;
+  position: absolute;
+  width: 100%;
+}
